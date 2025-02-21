@@ -1,4 +1,19 @@
+# dependencies
 node_modules
-dist
+
+# environment files
 .env
-*.log 
+.env.*
+
+# build outputs
+/frontend/build
+/backend/dist
+
+# logs
+*.log
+
+# misc
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
